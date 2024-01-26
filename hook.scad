@@ -19,13 +19,13 @@ module hook2d(){
   // hook at top
   smallHookRadius = 1.25;
   hull() {
-    translate([0,smallHookRadius/ 2,0])
+    translate([0,smallHookRadius,0])
       circle(smallHookRadius);
-    translate([7 - smallHookRadius,0,0])
+    translate([7 - smallHookRadius,1,0])
       circle(hookRadius);
   }
   hull() {
-    translate([0,smallHookRadius/ 2,0])
+    translate([0,smallHookRadius,0])
       circle(smallHookRadius);
     translate([-7,-6,0])
       square([2,2]);
