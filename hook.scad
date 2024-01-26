@@ -33,7 +33,9 @@ module hook2d(){
   hull() {
     translate([-2,-6,0])
       square([2,2]);
-    translate([-smallHookRadius + 1.25,-smallHookRadius+1.85,0])
+    translate([-smallHookRadius + 2.25,-smallHookRadius+1.85,0])
+      circle(smallHookRadius);
+    translate([-smallHookRadius + 0.85,-smallHookRadius+2.25,0])
       circle(smallHookRadius);
     translate([-7,-6,0])
       square([2,4]);
